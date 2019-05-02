@@ -1,0 +1,3 @@
+# Spaceshooter 
+
+Trying to make a 3D space shooter in unity. Like good old wing commander... 

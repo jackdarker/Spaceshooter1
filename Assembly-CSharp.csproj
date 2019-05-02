@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{A4D7B93E-2024-7CC3-A11F-24CA182BFB09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_13;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.3.13f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Programs\unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Programs\unity2018\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Asteroids\Readme\Readme Files\Scripts\Readme.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\BulbFlash.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\DemoNavigation.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\DestructibleTrees.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\DisableAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\DynamicDestructible.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\FadeOut.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\Follow.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\HeadsUpDisplay.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\MeleeArea.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\OpenCloseChest.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\PoweredLight.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\PoweredTag.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\PowerSource.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\RocketLoading.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Behaviors\TurnOnCamera.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\DustWall.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\Explode.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\FadeIn.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\FadeParticleEffect.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\FlareFadeOut.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\FloatUp.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\NukeCameraEffect.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\PostEffectsBase.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\ResetSkybox.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\ShockWall.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\SmoothMouseLook.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Effects\Tonemapping.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\FirstPersonController.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\MobileInput.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\MouseLook.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\StandaloneInput.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\FirstPersonController\VirtualInput.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Gizmos\DrawLine.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Gizmos\EditorGizmos.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Helpers\WeaponHelper.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Weapons\Bullet.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Weapons\RigidbodyProjectile.cs" />
+    <Compile Include="Assets\DestroyIt\Demos (safe to delete)\Scripts\Weapons\Rocket.cs" />
+    <Compile Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\Scripts\Behaviors\DestructibleStub.cs" />
+    <Compile Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\Scripts\Behaviors\HitEffectsStub.cs" />
+    <Compile Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\Scripts\Behaviors\TagItStub.cs" />
+    <Compile Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\Scripts\Extensions\DestroyItReadyExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\Scripts\Extensions\StubExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\ActivateDestructibles.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\AutoDamage.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\ChipAwayDebris.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\ClingPoint.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\DelayedRigidbody.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\DestroyAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\Destructible.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\DestructibleParent.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\DestructionTest.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\EnableColliderAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\EnableGravityAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\ExplodeAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\FlashingLight.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\HitEffects.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\PoolAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\ReleaseObject.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\SpawnObject.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\SupportPoint.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\TagAfter.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\TagIt.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\TerrainPreserver.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\WhenDamaged.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\WhenDestroyed.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\WhenDestroyedPlaySound.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Behaviors\WhenRepaired.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\ArrayExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\DestructibleExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\TagItExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\TerrainExtensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Extensions\Vector3Extensions.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Framework\Enums.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Framework\HitEffect.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Framework\Interfaces.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Framework\ObjectModels.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Helpers\Check.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Helpers\DestructibleHelper.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Helpers\ExplosionHelper.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Managers\DestructionManager.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Managers\MaterialPreloader.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Managers\ObjectPool.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Managers\ParticleManager.cs" />
+    <Compile Include="Assets\DestroyIt\Scripts\Managers\TreeManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\SpaceCombatKit\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\General\Pooling\ObjectPool.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\General\Pooling\PoolManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\General\Rotator.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\AISpaceFighterControl.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Behaviours\BehaviourBlackboard.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Behaviours\BehaviourState.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Behaviours\CombatBehaviour.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Behaviours\ObstacleAvoidanceBehaviour.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Behaviours\PatrolBehaviour.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Groups\GroupManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Groups\GroupMember.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\Maneuvring.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\ObstacleAvoidanceVisualization\ObstacleSignal.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\ObstacleAvoidanceVisualization\ObstacleSignalManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\AI\PatrolRoutes\PatrolRoute.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\DeactivateByTime.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\DemoManagerMain.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\FlybyParticleController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\MainMenuController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\MassObjectSpawner.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\PlanetCameraController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\SyncActivation.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\HUD\HUDPrimaryWeaponInfoController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\HUD\HUDSecondaryWeaponInfoController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\HUD\HUDShipCockpit.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\HUD\ShipHUD.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\Pickups\Inventory.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\Pickups\Pickup_MissileAmmo.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\Player\PlayerGeneralControls.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\Player\PlayerSpaceFighterControl.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\SpaceVehicleEngines\SpaceVehicleEngines.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\SpaceVehicleEngines\SpaceVehicleEngines2.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Camera\CameraViewTarget.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Camera\VehicleCamera.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Engines\EngineEffectsController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Engines\Engines.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Engines\IVehicleController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\GameAgents\GameAgent.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\GameAgents\GameAgentManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\GameAgents\IVehicleControlBehaviour.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\GameAgents\IVehicleInput.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\GameAgents\TeamEnum.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\Health.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\HealthFixture.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\HealthGenerator.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\IDamageable.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\IHealthGenerator.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\IHealthInfo.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Helpers\HUDImageObject.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Helpers\HUDSpriteObject.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Helpers\HUDTextObject.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Hologram\HUDHologram.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Hologram\HUDHologramController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\HUDManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\HUDMessages\HUDMessageController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\HUDMessages\HUDMessages.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\HUDSceneManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Radar3D\DemoRadar3DWidget.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Radar3D\HUDRadar3D.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Radar3D\IRadar3DWidget.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\TargetTracking\DemoTargetTrackingWidget.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\TargetTracking\HUDDistanceLookup.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\TargetTracking\HUDTargetTracking.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\TargetTracking\ITargetTrackingWidget.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\TargetTracking\LockingAnimationController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Inventory\Collectable.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Inventory\IInventory.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\LoadoutCameraPositionController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\LoadoutDisplayManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\LoadoutManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\LoadoutModuleMenuController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\LoadoutMountMenuController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\MenuBarController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\ModuleMenuItemController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\ModuleMountSelectionButtonController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Loadout\PlayerData.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Modules\Classes\ModuleMount.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Modules\Interfaces\IModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Power\Classes\Power.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Power\Classes\PowerManagementMenuController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Power\Classes\SubsystemPowerInfoController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Power\IPowerPlantModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Power\PowerPlantModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Radar\Radar.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Radar\RadarSceneManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Radar\Trackable\DemoTrackable.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Radar\Trackable\ITrackable.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Subsystems\Subsystem.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\GroupItemController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\ITriggerable.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\LabelItemController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\TriggerGroupsManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\TriggerGroupsMenuController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\TriggerGroups\TriggerItemController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\FloatingOrigin\ISceneOriginUser.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\FloatingOrigin\SceneOriginChild.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\FloatingOrigin\SceneOriginManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\GameStateManager\GameStateManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\Gimbals\GimbalController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\PhysicsInfo.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\PlayerItemManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\Rumble\RumbleManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\SimpleMenuManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\StaticFunctions.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Utility\UVCEventManager.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Vehicle.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\AmmunitionControllers\HitScanMode.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\AmmunitionControllers\IMissileThreat.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\AmmunitionControllers\MissileController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\AmmunitionControllers\ProjectileController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\General\BeamHitEffectController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\General\BeamSpawn.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\General\FlashController.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\Interfaces\IGunModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\Interfaces\IMissileModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\Interfaces\IUnitResourceConsumer.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\Interfaces\IWeaponModule.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\ExampleWeaponsComputer.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\Interfaces\IAimAssister.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\Interfaces\ILeadTargetComputer.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\Interfaces\ILockingComputer.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\Interfaces\IWeaponsComputer.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\LeadTargetData.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\LockingData.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponComputers\Turret.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponControllers\BeamWeapon.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponControllers\MissileWeapon.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\WeaponControllers\ProjectileWeapon.cs" />
+    <Compile Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Weapons\Weapons.cs" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\DestroyIt\Extras (safe to delete)\DestroyIt-Ready\LICENSE (for DestroyIt-Ready).txt" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\DestroyIt Mobile.shader" />
+    <None Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\HUD\FillShader.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Fonts\LICENSE (for Open Sans font).txt" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\Particle Alpha Blend (No Fog).shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\DestroyItSpeedTreeCommon.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\Health\EnergyShield.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\SpaceCombatKit\Scripts\SpaceCombat\General\PlanetShader.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\MainScenariosSceneObjectPool.txt" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\DestroyItSpeedTreeVertex.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\frag_ao.cginc" />
+    <None Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Hologram\Shaders\Hologram.shader" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\SpaceCombatKit\Rotorz\Reorderable List Field\!README.txt" />
+    <None Include="Assets\SpaceCombatKit\Scripts\UniversalVehicleCombat\HUD\Hologram\Shaders\HologramOutlined.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\DestroyItSpeedTreeWind.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\Tonemapper.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\DestroyItSpeedTree.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\SpaceCombatKit\Rotorz\Reorderable List Field\!LICENSE.txt" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\SpaceCombatKit\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\DestroyIt\Demos (safe to delete)\Shaders\SSAOShader.shader" />
+    <None Include="Assets\SpaceCombatKit\Rotorz\Reorderable List Field\Editor.ReorderableList.xml" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>D:/Programs/unity2018/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Programs/unity2018/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor.ReorderableList">
+      <HintPath>D:/Projects/Unity/spaceshooter/Assets/SpaceCombatKit/Rotorz/Reorderable List Field/Editor.ReorderableList.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/Projects/Unity/spaceshooter/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:/Programs/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
